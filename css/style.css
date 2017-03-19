@@ -1,0 +1,381 @@
+html,body{
+	height: 100%;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+h1{
+	text-align: center;
+	font-family: 'Pristina', serif;
+}
+
+input, textarea{
+	background-color: white;
+    opacity: 0.2;
+}
+
+.block{
+    width: 100%;
+}
+
+#msg #send{
+    width: 6em;
+    margin-top: 0em;
+    color: white;
+    background: black;
+    opacity: 1;
+    font-family: 'Quintessential', cursive;
+    font-size: 20px;
+    float: right;
+}
+
+#book #msg {
+    width: 90%;
+    height: 10em;
+    float: none;
+    clear: both;
+}
+
+.order textarea{
+	height: 6em;
+    width: 30em;
+    resize: none;
+    border: 1px #c6baa3 solid;
+    padding: 6px;
+}
+
+#book #namebox, #book #call{
+	width: 50%;
+    height: 4em;
+}
+
+.order{
+	height: 24em;
+	width: 100%;
+	color: white;
+	font-family: 'Quintessential', cursive;
+	font-size: 16px;
+	padding-top: 2em;
+	background-image: url("../images/order.jpeg");
+	background-size: 75em 26em;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-blend-mode: hard-light;
+}
+
+.order #address{
+    width: 15%;
+    float: left;
+    padding: 0 2em;
+}
+
+.order #map{
+    width: 35%;
+    float: left;
+}
+
+.order #map img{
+	height: 18em;
+	width: 25em;
+}
+
+.order #book{
+	height: inherit;
+	float: right;
+	width: 40%;
+}
+
+.order input{
+    border: 0px #c6baa3 solid;
+    padding: 6px;
+    width: 15em;
+}
+
+.order label{
+	font-size: 18px;
+	padding: 5px 0;
+	font-weight: bold;
+}
+
+.order #online{
+	height: 10em;
+	float: left;
+	width: 35%;	
+}
+
+.topMenu li a{
+	color: #6f5f41;
+}
+
+
+.topMenu li a:hover{
+	color: #6f0202;
+}
+
+#reviewblocks .circle{
+    width: 10em;
+    height: 10em;
+    border-radius: 5em;
+    background-repeat: no-repeat;
+    float: none;
+    margin: 1em auto; 
+}
+
+#reviewblocks p{
+	padding: 1em 3em;
+}
+
+#reviewblocks #cook1{
+    background-image: url(../images/cook1.jpeg);
+    background-size: 16em 12em;
+    background-position: -4em 0em;
+}
+
+#reviewblocks #cook2{
+    background-image: url(../images/cook2.jpeg);
+    background-size: 16em 10em;
+    background-position: -6em 0em;
+}
+
+#reviewblocks #cook3{
+    background-image: url(../images/cook3.jpg);
+    background-size: 22em 13em;
+    background-position: -2em 0em;
+}
+
+#review,#middle{
+    padding: 2em 2em 1em 0em;  
+	color: black;
+	font-family: 'Quintessential', cursive;
+	font-size: 16px;
+	font-weight: bold;
+	background: rgba(154, 132, 92, 0.56);
+}
+
+#middle{
+		background: transparent;
+}
+
+.content #reviewblocks{
+	list-style: none;
+	height: 90%;
+}
+
+.content #reviewblocks li{
+	float: left;
+	width: 27%;
+	padding: 2em;
+	height: inherit;
+}
+
+.content #reviewblocks li:nth-child(3){
+	float: right;
+}
+
+
+.content #left img{
+	float: left;
+}
+
+.content #middle {
+    text-align: center;
+    width: 40%;
+    float: left;
+    position: absolute;
+    right: 5em;
+    top: 1em;
+}
+
+.topMenu ul li{
+	font-family: 'Quintessential', cursive;
+	font-size: 22px;
+	font-weight: bold;
+	padding: 1em;
+	color: #dabb82;
+}
+
+.foods{
+    height: 38%;
+    margin: 2em;
+    float: none;
+}
+
+.foods #dish{
+	list-style: none;
+}
+
+.foods li{
+    float: left;
+    width: 33%;
+}
+
+ul li .pic{
+	height: 15em;
+    width: 23em;
+}
+
+.foodMenu{
+	margin: 0em;
+    height: 75%;
+    list-style: none;
+    background-color: #000;
+}
+.menuimage{
+    padding: 1em 0;
+    background-image: url(../images/kitchen.jpg);
+    background-position: 0em -30em;
+    background-size: 115em 85em;
+    background-repeat: no-repeat;
+    height: 15em;
+    background-blend-mode: color-burn;
+    background-color: darkgrey;
+}
+
+.menuimage span{
+	text-align: center;
+    font-family: 'Pristina', serif;
+    font-size: 10em;
+    float: right;
+    position: relative;
+    right: 1em;
+    color: #6f5f41;
+}
+
+
+.food {
+  	width: 26%;
+    margin: 0 6px;
+    float: left;
+    background-color: black;
+    opacity: 0.9;
+    color: #7c6a49;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Quintessential', cursive;
+    padding: 0 2em;
+    list-style: none;
+}
+
+.food p{
+	padding-left: 2.5em; 
+}
+
+.jumbo{
+	position: relative;
+}
+
+.jumbo .head{
+	text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 11em;
+}
+
+.head h1{
+	background-color: #6f5f41;
+    opacity: 0.8;
+}
+
+.head span{
+    font-family: 'Pristina', serif;
+    font-size: 2em;
+    background-color: #000;
+    opacity: 0.7;
+    width: 100%;
+    display: block;
+}
+
+.parallax{
+	background-image: url("../images/parallax.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+}
+
+.parallax2{
+    background-image: url(../images/parallax.jpg);
+    /*background-size: 55em 40em;*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 40%;
+}
+
+.content{
+	height: 30em;
+	width: 100%;
+}
+
+.col{
+	height: inherit;
+}
+/*box1 css*/
+
+#box1{
+	position: relative;
+}
+
+#left{
+    background-image: url(../images/spice1.jpg);
+    background-repeat: no-repeat;
+    background-size: 30em 20em;
+    width: 50%;
+    float: left;
+    position: absolute;
+    left: 5em;
+    top: 5em;
+}
+
+nav{
+    background: #000;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0em;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+.fixed{
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	height: 70px;
+}
+
+.footer{
+	height: 2em;
+	padding: 1em 0;
+	color: #6f5f41;
+	background: #000;
+	text-align: center;
+}
+
+.footer span{
+margin: 2em;
+}
+
+nav ul{
+	    width: 40%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) and (min-width: 100px) {
+    h1{
+        font-size: 2em;
+    }
+}
