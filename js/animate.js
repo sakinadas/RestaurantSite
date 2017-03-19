@@ -3,10 +3,10 @@ $(document).ready(function(){
 		 var navHeight = $(window).height() - 61;
 		//alert(navHeight);
 		if($(window).scrollTop() > navHeight){
-			$('navbar').addClass('fixed');
+			$('.navbar').addClass('fixed');
 		}
 		else{
-			$('navbar').removeClass('fixed');
+			$('.navbar').removeClass('fixed');
 		}
 		
 	});
